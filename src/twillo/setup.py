@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'simple_publisher = twillo.publisher:main',
+            'simple_subscriber = twillo.subscriber:main'
         ],
     },
 )
