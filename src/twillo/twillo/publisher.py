@@ -1,8 +1,7 @@
-from typing import List
+#!/usr/bin/env python3
+
 import rclpy
-from rclpy.context import Context
 from rclpy.node import Node
-from rclpy.parameter import Parameter
 from std_msgs.msg import String
 
 class SimplePublisher(Node):
@@ -34,3 +33,4 @@ def main():
         
 if __name__ == 'main':
     main()
+    

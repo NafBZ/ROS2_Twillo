@@ -10,13 +10,13 @@ class BagDataToCSV(Node):
         super().__init__('bag_to_csv')
         self.subscription_rpm = self.create_subscription(
             Float32,
-            '/osorno2/current_rpm',
+            '/current_rpm',
             self.callback_rpm,
             10 
         )
         self.subscription_avg_spindle = self.create_subscription(
             Float32,
-            '/osorno2/current_avg_spindle',
+            '/current_avg_spindle',
             self.callback_avg_spindle,
             10 
         )

@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'bumperbot'
+package_name = 'twillo'
 
 setup(
     name=package_name,
@@ -20,8 +20,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'simple_publisher = bumperbot.publisher:main',
-            'simple_subscriber = bumperbot.subscriber:main'
         ],
     },
 )
