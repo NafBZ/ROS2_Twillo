@@ -14,14 +14,15 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='nafees',
-    maintainer_email='nafees.zaman@paltech.eu',
+    maintainer_email='zamannafees@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'simple_publisher = twillo.publisher:main',
-            'simple_subscriber = twillo.subscriber:main'
+            'simple_subscriber = twillo.subscriber:main',
+            'simple_parameter = twillo.parameters:main'
         ],
     },
 )
